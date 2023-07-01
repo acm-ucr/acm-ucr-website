@@ -20,7 +20,6 @@
     "next": "^13.4.7",
     "postcss": "^8.4.24",
     "react": "^18.2.0",
-    "react-big-calendar": "^1.8.1",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
