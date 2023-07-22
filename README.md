@@ -10,7 +10,7 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ## Figma
-[Figma Design File](https://www.figma.com/)
+[ACM UCR Website Template Figma Design File](https://www.figma.com/)
 
 ## Node.js
 
