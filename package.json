@@ -13,23 +13,23 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.14",
     "bootstrap": "^5.3.0",
-    "eslint-config-next": "^13.4.6",
-    "eslint-config-prettier": "^8.8.0",
     "next": "^13.4.7",
-    "postcss": "^8.4.24",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "tailwindcss": "^3.3.2"
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.15",
     "eslint": "^8.42.0",
     "eslint-config-google": "^0.14.0",
+    "eslint-config-next": "^13.4.19",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
-    "prettier": "^2.8.8"
+    "postcss": "^8.4.29",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.3"
   }
 }
