@@ -11,12 +11,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.17.0"
-      - run: npm ci
-      - run: npm run check
+      - name: Format
+        uses: acm-ucr/formatting@v2.00
+
   lint:
     name: linting
     runs-on: ubuntu-latest
