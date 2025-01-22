@@ -2,7 +2,6 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     loader: "akamai",
     path: "",

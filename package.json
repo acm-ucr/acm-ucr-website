@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "format": "npx prettier --write .",
@@ -14,15 +14,15 @@
   "dependencies": {
     "@tanstack/react-query": "~5.53.3",
     "lucide-react": "~0.417.0",
-    "next": "~14.2.10",
-    "react": "~18.3.1",
-    "react-dom": "~18.3.1"
+    "next": "15.1.5",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "~9.8.0",
     "@types/node": "~22.1.0",
-    "@types/react": "~18.3.3",
-    "@types/react-dom": "~18.3.0",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
     "@typescript-eslint/eslint-plugin": "~8.0.0",
     "@typescript-eslint/parser": "~8.0.0",
     "@tanstack/eslint-plugin-query": "~5.53.0",
@@ -39,5 +39,9 @@
     "tailwindcss": "~3.4.7",
     "typescript": "~5.5.4",
     "typescript-eslint": "~8.0.0"
+  },
+  "overrides": {
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3"
   }
 }
